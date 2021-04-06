@@ -15,4 +15,7 @@ export class CategoryService {
     if(embed) requestUrl += '?_embed=books';
     return this.http.get<Category[]>(requestUrl);
   }
+  store(obj:Category): Observable<any>{
+    return this.http.post<any>(this.API_URL, obj);
+  }
 }

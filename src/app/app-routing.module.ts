@@ -4,9 +4,9 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { ClientLayoutComponent } from './layouts/client-layout/client-layout.component';
 import { AddComponent } from './screens/admin/danh-muc/add/add.component';
 import { DanhSachComponent } from './screens/admin/danh-muc/danh-sach/danh-sach.component';
-import { DashboardComponent } from './screens/admin/dashboard/dashboard.component';
-import { BookDetailComponent } from './screens/book-detail/book-detail.component';
-import { BookListComponent } from './screens/book-list/book-list.component';
+import { DashboardComponent } from './screens/admin/danh-muc/danh-sach/dashboard/dashboard.component';
+import { BookDetailComponent } from './screens/admin/danh-muc/danh-sach/book-detail/book-detail.component';
+import { BookListComponent } from './screens/admin/danh-muc/book-list/book-list.component';
 import { HeroListComponent } from './screens/hero-list/hero-list.component';
 
 const routes: Routes = [
