@@ -18,4 +18,7 @@ export class CategoryService {
   store(obj:Category): Observable<any>{
     return this.http.post<any>(this.API_URL, obj);
   }
+  editForm(obj:Category): Observable<any>{
+    return this.http.post<any>(this.API_URL, obj);
+  }
 }
